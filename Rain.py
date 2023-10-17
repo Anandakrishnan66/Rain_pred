@@ -214,6 +214,7 @@ model=LinearRegression()
 
 model.fit(x,y)
 
+
 prediction=model.predict(x)
 
 print(prediction)
